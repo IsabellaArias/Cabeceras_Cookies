@@ -8,11 +8,13 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Enumeration;
 
-@WebServlet("/login")
+@WebServlet("/Login")
 public class LoginServlet extends HttpServlet {
     final static String USERNAME="admin";
     final static String PASSWORD="12345";
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)throws ServletException,
         IOException {
@@ -25,11 +27,11 @@ public class LoginServlet extends HttpServlet {
                 out.println("<html>");
                 out.println(" <head>");
                 out.println(" <metacharset=\"UTF-8\">");
-                out.println(" <title>Login correcto</title>");
+                out.println(" <title>Login correcto!</title>");
                 out.println(" </head>");
                 out.println(" <body>");
                 out.println(" <h1>Login correcto!</h1>");
-                out.println(" <h3>Hola"+username+"has iniciado sesión con éxito!</h3>");
+                out.println(" <h3>Hola "+username+" has iniciado sesión con éxito!</h3>");
                 out.println(" </body>");
                 out.println("</html>");
             }
