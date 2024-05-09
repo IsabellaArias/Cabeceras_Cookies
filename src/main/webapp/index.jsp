@@ -13,7 +13,8 @@
   <li> <a href="http://localhost:8080/C2Seguimiento1_war/students">Ruta Students</a> </li>
   <li> <a href="http://localhost:8080/C2Seguimiento1_war/student.json">Ruta Students desde Json</a> </li>
   <li> <a href="http://localhost:8080/C2Seguimiento1_war/nuevoS1">Ruta Ver Hora actual</a> </li>
-  <li> <a href="http://localhost:8080/C2Seguimiento1_war/Login">Ruta Login</a> </li>
+  <li> <a href="http://localhost:8080/C2Seguimiento1_war/Login.html">Ruta Login html</a> </li>
+  <li> <a href="http://localhost:8080/C2Seguimiento1_war/Logout">Ruta Logout</a> </li>
 </ul>
 
 <h2>Iniciar Sesión</h2>
